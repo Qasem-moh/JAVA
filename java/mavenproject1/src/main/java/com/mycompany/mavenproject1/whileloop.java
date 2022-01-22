@@ -11,10 +11,11 @@ package com.mycompany.mavenproject1;
 public class whileloop {
 
     public static void main(String args[]) {
-        int d = 5;
-        while (d < 8) {
+        int count = 5;
+        while (count < 8) {
             System.out.println("Hi");
-            d++;
+            count++;
         }
+        System.out.println("count= "+count);
     }
 }
