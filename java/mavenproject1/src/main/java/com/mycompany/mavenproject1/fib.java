@@ -34,8 +34,11 @@ public class fib {
         if (n1 == n2) {
             return n1;
         } else {
-            return n1 + sumRangenumber(n1 + 1, n2);
-
+            if (n1 < n2) {
+                return n1 + sumRangenumber(n1 + 1, n2);
+            } else {
+                return n1 + sumRangenumber(n1 - 1, n2);
+            }
         }
     }
 
