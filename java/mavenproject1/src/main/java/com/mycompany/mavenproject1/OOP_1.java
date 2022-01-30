@@ -9,5 +9,7 @@ package com.mycompany.mavenproject1;
  * @author qasem
  */
 public class OOP_1 {
-    
+    public static void main(String args[]){
+        
+    }
 }
