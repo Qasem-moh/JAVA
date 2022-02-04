@@ -48,14 +48,17 @@ public class Main {
 //        account3.toString();
         //********************************************
 
-        Students Student1 = new Students("Qasem","123");
-        Students Student2 = new Students("Qasem","456");
-        Students Student3 = new Students("Qasem","852");
-        
-        System.out.println(Student1.logIn(1, "1234"));
-//        System.out.println(Student1.toString());
-//        System.out.println(Student2.toString());
-//        System.out.println(Student3.toString());
+//        Students Student1 = new Students("Qasem","123456");
+//        Students Student2 = new Students("Qasem","456");
+//        Students Student3 = new Students("Qasem","852");
+//        
+//        System.out.println(Student1.logIn(1, "123"));
+////        System.out.println(Student1.toString());
+////        System.out.println(Student2.toString());
+//        System.out.println(Student1);
+//***************************************************
+        outerClass.InnerClass obj = new outerClass.InnerClass();
 
+        obj.print(); 
     }
 }

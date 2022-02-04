@@ -16,6 +16,7 @@ public class Students {
     private boolean loggedIn;
     private static int count = 1;
     private static String college = "IT";
+    private static int minimalPasswordlength = 6;
 
     Students(String name, String password) {
         this.no = count;
@@ -27,6 +28,14 @@ public class Students {
     public boolean logIn(int enteredNo, String enterPassword) {
         if (enteredNo == no && enterPassword.equals(password)) {
             loggedIn = true;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static boolean validation(String password) {
+        if (password.length() >= minimalPasswordlength) {
             return true;
         } else {
             return false;
